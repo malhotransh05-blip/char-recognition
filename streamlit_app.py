@@ -15,7 +15,7 @@ MODEL_PATH = "xgb_model.json"        # your downloaded XGBoost model
 LABELS_PATH = "label_encoder.pkl"    # your downloaded LabelEncoder
 # If the model is too big for GitHub, upload it as a GitHub Release asset
 # and paste its direct download link here (otherwise leave empty).
-MODEL_URL = ""
+MODEL_URL = "https://github.com/malhotransh05-blip/char-recognition/releases/download/v1/xgb_model.json"
 
 COLS = [f"pixel_{i}" for i in range(576)]
 
